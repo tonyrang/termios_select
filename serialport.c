@@ -6,6 +6,8 @@
 #include <sys/types.h>
 #include "serialport.h"
 #include <string.h>
+#include <stdlib.h>
+#include <sys/select.h>
 
 #define TIMEOUT 10
 
